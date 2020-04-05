@@ -1,12 +1,18 @@
-## prog67.py
-## Elle Luo
-## August 2, 2017
-##
-## ECS 10 - Summer 2017
-## Programming Assignment 6 & 7
+"""
+PROMPT:
+The Game of Life is a mathematical game that gives rise to amazingly
+complex behavior, although it can be specified by a few simple rules. (It is not actually a
+game in the traditional sense, with players competing for a win.) Here are the rules. The
+game is played on a rectangular grid. Each square on the grid can be either empty
+(represented by a 0 in our version) or occupied by a "living" cell (represented by a 1). At
+the beginning, you can specify empty and occupied cells in some way; then the game
+runs automatically. In each generation, the next generation is computed. A new cell is
+born on an empty square if it is surrounded by exactly three occupied neighbor cells. A
+cell dies of overcrowding if it is surrounded by four or more living neighbors, and it dies
+of loneliness if it is surrounded by zero or one living neighbor. A neighbor is an occupant
+of an adjacent square to the left, right, top, or bottom or in a diagonal direction.
+"""
 
-
-## Programming Assignment 6
 
 glider =[[0,0,0,0,0,0,0],
  [0,0,1,0,0,0,0],
